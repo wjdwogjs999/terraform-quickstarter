@@ -1,7 +1,7 @@
-region = "리젼을 입력하세요."
-ec2_name = "인스턴스 이름을 입력하세요."
-subnet_id = "서브넷 아이디를 입력하세요."
-security_groups = ["보안그룹 아이디를 입력하세요."]
-key_pair = "키페어 이름을 입력하세요."
-instance_type = "인스턴스 타입을 입력하세요."
+region = "ap-northeast-1"
+ec2_name = "bodoru-ec2"
+subnet_id = "subnet-0d541061d7d51e563"
+security_groups = ["sg-5be3941e"]
+key_pair = "demo-tokyo-bastion-key"
+instance_type = "t2.micro"
 assign_ip = false
