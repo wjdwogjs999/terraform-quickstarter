@@ -10,13 +10,13 @@ variable "ec2_name" {
 
 variable "subnet_id" {
   description = "subnet identity"
-  default = "subnet-1234abcd"
+  default = "subnet-07c825397c0bb8010"
 }
 
 variable "security_groups" {
   description = "security group ids"
   type = list(string)
-  default = ["sg-1235abcd"]
+  default = ["sg-0a8e459f1110e38b0"]
 }
 
 variable "key_pair" {
