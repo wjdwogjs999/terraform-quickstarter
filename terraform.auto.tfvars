@@ -1,7 +1,7 @@
 region = "ap-northeast-2"
 ec2_name = "bodoru-ec2"
-subnet_id = "subnet-0d541061d7d51e563"
-security_groups = ["sg-5be3941e"]
+subnet_id = "subnet-07c825397c0bb8010"
+security_groups = ["sg-0a8e459f1110e38b0"]
 key_pair = "demo-tokyo-bastion-key"
 instance_type = "t2.micro"
 assign_ip = false
